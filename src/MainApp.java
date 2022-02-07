@@ -13,8 +13,8 @@ public class MainApp {
 			numeroError = 222;
 			
 			if (numeroError == 111) {throw new MiExcepcion(111);}
-			else if (numeroError == 222) {throw new MiExcepcion(111);}
-			else if (numeroError == 333) {throw new MiExcepcion(111);}
+			else if (numeroError == 222) {throw new MiExcepcion(222);}
+			else if (numeroError == 333) {throw new MiExcepcion(333);}
 			
 		} catch (MiExcepcion e) {
 			// TODO: handle exception
